@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<providers>   
+   <provider id="2000" type="0" visible="true" required="true" background="-1">
+      <name>Google</name>
+      <mode>Maps</mode>
+      <area>World</area>
+      <url><![CDATA[http://mt0.google.com/vt/{c}]]></url>
+      <cooPart><![CDATA[x={x}&y={y}&z={z}]]></cooPart>
+      <zoomPart>{z}-8</zoomPart>
+      <zoomMin>8</zoomMin>
+      <zoomMax>24</zoomMax>
+      <tileSize>256</tileSize>
+      <extraHeader>Referer#http://google.com/</extraHeader>
+   </provider>
+   <provider id="2010" type="0" visible="true" required="true" background="-1">
+      <name>Google</name>
+      <mode>Satellite</mode>
+      <area>World</area>
+      <url><![CDATA[http://khm1.google.com/kh/v=49&{c}]]></url>
+      <cooPart><![CDATA[x={x}&y={y}&z={z}]]></cooPart>
+      <zoomPart>{z}-8</zoomPart>
+      <zoomMin>8</zoomMin>
+      <zoomMax>24</zoomMax>
+      <tileSize>256</tileSize>
+      <extraHeader>Referer#http://google.com/</extraHeader>
+   </provider>
+   <provider id="2020" type="0" visible="true" required="true" background="-1">
+      <name>Google</name>
+      <mode>Hybrid</mode>
+      <area>World</area>
+      <url><![CDATA[http://mt1.google.com/vt/lyrs=y&{c}]]></url>
+      <cooPart><![CDATA[x={x}&y={y}&z={z}]]></cooPart>
+      <zoomPart>{z}-8</zoomPart>
+      <zoomMin>8</zoomMin>
+      <zoomMax>24</zoomMax>
+      <tileSize>256</tileSize>
+      <extraHeader>Referer#http://google.com/</extraHeader>
+   </provider>
+   <provider id="2030" type="0" visible="true" required="true" background="-1">
+      <name>Google</name>
+      <mode>Terrain</mode>
+      <area>World</area>
+      <url><![CDATA[http://khm.google.com/vt/lbw/lyrs=p&{c}]]></url>
+      <cooPart><![CDATA[x={x}&y={y}&z={z}]]></cooPart>
+      <zoomPart>{z}-8</zoomPart>
+      <zoomMin>8</zoomMin>
+      <zoomMax>24</zoomMax>
+      <tileSize>256</tileSize>
+      <extraHeader>Referer#http://google.com/</extraHeader>
+   </provider>
+   <provider id="2040" type="0" visible="true" required="true" background="-1">
+      <name>Google</name>
+      <mode>TerainAlt</mode>
+      <area>World</area>
+      <url><![CDATA[http://mt1.google.com/vt/lyrs=p&{c}]]></url>
+      <cooPart><![CDATA[x={x}&y={y}&z={z}]]></cooPart>
+      <zoomPart>{z}-8</zoomPart>
+      <zoomMin>8</zoomMin>
+      <zoomMax>24</zoomMax>
+      <tileSize>256</tileSize>
+      <extraHeader>Referer#http://google.com/</extraHeader>
+   </provider>
+   <provider id="2100" type="0" visible="true" required="true" background="-1">
+      <name>OutdoorActive.com</name>
+      <mode>Germany</mode>
+      <area>Europe</area>
+      <url><![CDATA[http://t0.outdooractive.com/portal/map/{c}.png]]></url>
+      <cooPart><![CDATA[{z}/{x}/{y}]]></cooPart>
+      <zoomPart>{z}-8</zoomPart>
+      <zoomMin>8</zoomMin>
+      <zoomMax>24</zoomMax>
+      <tileSize>256</tileSize>
+      <extraHeader>Referer#http://outdooractive.com/</extraHeader>
+   </provider>
+   <provider id="2110" type="0" visible="true" required="true" background="-1">
+      <name>OutdoorActive.com</name>
+      <mode>Austria</mode>
+      <area>Europe</area>
+      <url><![CDATA[http://t0.outdooractive.com/austria/map/{c}.png]]></url>
+      <cooPart><![CDATA[{z}/{x}/{y}]]></cooPart>
+      <zoomPart>{z}-8</zoomPart>
+      <zoomMin>8</zoomMin>
+      <zoomMax>24</zoomMax>
+      <tileSize>256</tileSize>
+      <extraHeader>Referer#http://outdooractive.com/</extraHeader>
+   </provider>
+   <provider id="2120" type="0" visible="true" required="true" background="-1">
+      <name>OutdoorActive.com</name>
+      <mode>South Tyrol</mode>
+      <area>Europe</area>
+      <url><![CDATA[http://t0.outdooractive.com/suedtirol/map/{c}.png]]></url>
+      <cooPart><![CDATA[{z}/{x}/{y}]]></cooPart>
+      <zoomPart>{z}-8</zoomPart>
+      <zoomMin>8</zoomMin>
+      <zoomMax>24</zoomMax>
+      <tileSize>256</tileSize>
+      <extraHeader>Referer#http://outdooractive.com/</extraHeader>
+   </provider>
+   <provider id="2200" type="0" visible="true" required="true" background="-1">
+      <name>MyTopo.com</name>
+      <mode>Topographic</mode>
+      <area>USA</area>
+      <url><![CDATA[http://maps.mytopo.com/groundspeak/tilecache.py/1.0.0/topoG/{c}.png]]></url>
+      <cooPart><![CDATA[{z}/{x}/{y}]]></cooPart>
+      <zoomPart>{z}-8</zoomPart>
+      <zoomMin>8</zoomMin>
+      <zoomMax>24</zoomMax>
+      <tileSize>256</tileSize>
+      <extraHeader>Referer#http://outdooractive.com/</extraHeader>
+   </provider>
+</providers>
